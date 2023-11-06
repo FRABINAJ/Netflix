@@ -1,9 +1,14 @@
 import './App.css';
+import Banner from './Components/Banner/Banner.js';
+import NavBar from './Components/NavBar/NavBar.js';
+import RowPost from './Components/RowPost/RowPost.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <NavBar/>
+      <Banner/>
+      <RowPost/>
     </div>
   );
 }
