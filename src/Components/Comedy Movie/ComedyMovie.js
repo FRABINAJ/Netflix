@@ -1,20 +1,24 @@
+import RowPost from '../RowPost/RowPost'
+import { ComedyMovies,originals} from "../../urls"
 import React, { useEffect, useState } from 'react';
 import { API_KEY, imageUrl } from "../../constants/constants";
-import "./Banner.css";
 import axios from "../../Axios";
 import playimage from "./play.png"
-function Banner() {
-    const [movie, setMovie] = useState([]);
+import Footer from '../Footer_page/Footer';
 
+function ComedyMovie() {
+    const [movie, setMovie] = useState([]);
+    
     useEffect(() => {
-        axios.get(`trending/all/week?api_key=${API_KEY}&language=en-US`)
+        axios.get(`discover/movie?api_key=${API_KEY}&with_genres=35`)
             .then((response) => {
                 console.log(response.data.results[0]);
                 setMovie(response.data.results[0]);
             })
     }, []);
-
-    return (
+  return (
+    
+    <div>
         <div style={{ backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""})` }} className='banner'>
             <div className='container' style={{ height: '300px', width: "100%" }}>
                 <div className='row' style={{ height: '100%', width: "100%" }}>
@@ -32,7 +36,11 @@ function Banner() {
             </div>
             <div className="fade_bottom"></div>
         </div>
-    );
+      <RowPost url={originals} title="Netflix originals"/>
+      <RowPost url={ComedyMovies} title="ComedyMovies" isSmall />
+      <Footer/>
+    </div>
+  )
 }
 
-export default Banner;
+export default ComedyMovie
