@@ -2,15 +2,12 @@
     background-size: cover;
     height: 450px;
     color: white;
-    position: relative;
-    top: -100px;
-    z-index: .1;
 
 }
 
 .content {
-    padding-top: 140px;
-    height: 190px;
+    padding-top: 50px;
+    height: 210px;
     padding-left: 15px;
 }
 
@@ -55,32 +52,7 @@
 
 }
 
-#btn1 {
-    background-color: white;
-    height: 40px;
-    width: 80px;
-    border-radius: 5px;
-    border-color: white;
-}
-
-#btn1:hover {
-    background-color: #354151;
-    border-color: #354151;
-    color: black;
-}
-
-
-.btn2 {
-    background-color: #354151;
+#btn {
+    background-color: rgb(68, 67, 67);
     color: white;
-    height: 40px;
-    width: 80px;
-    border-radius: 5px;
-    border-color: #354151;
-}
-
-.btn2:hover {
-    background-color: white;
-    border-color: white;
-    color: black;
 }

@@ -5,7 +5,7 @@ import Footer from '../Footer_page/Footer'
 import {originals, action, trending, ComedyMovies, HorrorMoviess, ActionMovies, RomanceMovies, Documentaries} from "../../urls"
 function MainPage() {
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Banner/>
       <RowPost url={originals} title="Netflix originals"/>
       <RowPost url={action} title="Action" isSmall />

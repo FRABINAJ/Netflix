@@ -16,7 +16,7 @@ function HorrorMovies() {
             })
     }, []);
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
         <div style={{ backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""})` }} className='banner'>
             <div className='container' style={{ height: '400px', width: "100%" }}>
                 <div className='row' style={{ height: '100%', width: "100%" }}>
@@ -24,8 +24,8 @@ function HorrorMovies() {
                         <div className='content'>
                             <h1 className='title'>{movie ? movie.title : ""}</h1>
                             <div className='banner_button'>
-                                <button className='btn'> <img height={15} src={playimage} alt="" /> Play</button>
-                                <button className='btn2' style={{ marginLeft: "10px" }}>My list</button>
+                            <button className='btn btn-light'> <img height={15} src={playimage} alt="" /> Play</button>
+                                <button className='btn' id='btn' style={{ marginLeft: "10px" }}>Add to list</button>
                             </div>
                             <p className='discription'>{movie ? movie.overview : ""}</p>
                         </div>

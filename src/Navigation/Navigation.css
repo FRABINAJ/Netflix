@@ -1,36 +1,23 @@
 .navbar {
     position: fixed;
-    opacity: .7;
-    z-index: .9;
-}
-
-.logo {
-    position: fixed;
-    left: 20px;
-    width: 80px;
+    background-color: transparent;
 }
 
 .nav {
     position: fixed;
-    width: 30px;
 }
 
-.avatar {
-    position: fixed;
-    right: 20px;
-    width: 30px;
-}
-
-/* Add this CSS in your styles */
 .custom-pane {
     background-color: black;
     color: red;
     padding: 20px;
     z-index: 1;
+    width: 500px;
+    /* Adjust the width as needed */
 }
 
 .custom-pane a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

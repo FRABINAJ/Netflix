@@ -2,7 +2,7 @@ import React from 'react'
 import "./NetflixClone.css"
 function NetflixClone() {
   return (
-    <div>
+    <div style={{backgroundColor:"black"}}>
       <>
   <header className="showcase">
     <div className="showcase-top">
