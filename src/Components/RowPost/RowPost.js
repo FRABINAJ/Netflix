@@ -34,7 +34,7 @@ function RowPost(props) {
     return (
         <div className="container-fluid" style={{ backgroundColor: "black" }}>
             <div className='row'>
-                <h2>{props.title}</h2>
+                <h2 className='mt-2'>{props.title}</h2>
                 <div className="posters">
                     {movies.map((obj) =>
                         <div key={obj.id}>

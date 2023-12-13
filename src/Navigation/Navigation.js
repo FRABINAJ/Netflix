@@ -32,7 +32,7 @@ function Navigation() {
                 isOpen={state.isPaneOpenLeft}
                 title='Back'
                 from='left'
-                width='200px'
+                width='300px'
                 onRequestClose={() => setState({ isPaneOpenLeft: false })}
                 className="custom-pane"
             >
@@ -72,8 +72,9 @@ function Navigation() {
                     </div>
                 </Link>
                 <Link to="/FirstPage">
-                    <div className='slidediv'>
-                        Logout
+                    <div className='slidediv text-danger'><u>
+                        LOGOUT
+                    </u>
                     </div>
                 </Link>
 

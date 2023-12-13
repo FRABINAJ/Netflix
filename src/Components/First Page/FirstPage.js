@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./First_page.css";
 import Netflixintro from '../NetflixIntro/Netflixintro';
+import { Link } from 'react-router-dom';
 
 function FirstPage() {
   const [showContent, setShowContent] = useState(false);
@@ -23,7 +24,7 @@ function FirstPage() {
           {showContent && (
             <>
               <div className="navbar">
-                <button type='submit' className="buttons btn btn-danger mx-3">  Sign In</button>
+                <Link to="/Signin"><button type='submit' className="buttons btn btn-danger mx-3 mt-5">  Sign In</button></Link>
               </div>
               <div className="main">
                 <div className="area">
