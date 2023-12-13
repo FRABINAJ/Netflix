@@ -6,7 +6,7 @@ import {originals, action, trending, ComedyMovies, HorrorMoviess, ActionMovies, 
 function MainPage() {
   return (
     <div>
-      <Banner />
+      <Banner/>
       <RowPost url={originals} title="Netflix originals"/>
       <RowPost url={action} title="Action" isSmall />
       <RowPost url={trending} title="Trending" isSmall />

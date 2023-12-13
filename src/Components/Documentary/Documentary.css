@@ -1,0 +1,21 @@
+/* Documentary.css */
+.banner {
+    height: 100vh;
+    /* Set banner height to 100% of the viewport height */
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust styles for screens smaller than 768px */
+    .banner {
+        height: auto;
+        /* Allow the banner height to adjust based on content */
+        background-size: cover;
+        /* Ensure background image covers the container */
+    }
+
+    .content {
+        text-align: center;
+        /* Center content on smaller screens */
+    }
+}

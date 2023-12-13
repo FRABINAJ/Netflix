@@ -18,7 +18,7 @@ function HorrorMovies() {
   return (
     <div>
         <div style={{ backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""})` }} className='banner'>
-            <div className='container' style={{ height: '300px', width: "100%" }}>
+            <div className='container' style={{ height: '400px', width: "100%" }}>
                 <div className='row' style={{ height: '100%', width: "100%" }}>
                     <div className='col-md-6 col-lg-7 col-xl-8 d-flex align-items-center'>
                         <div className='content'>
@@ -34,9 +34,10 @@ function HorrorMovies() {
             </div>
             <div className="fade_bottom"></div>
         </div>
-      <RowPost url={originals} title="Netflix originals"/>
-      <RowPost url={HorrorMoviess} title="HorrorMovies" isSmall />
-      <Footer/>
+        <br/>
+        <RowPost url={originals} title="Netflix originals"/>
+        <RowPost url={HorrorMoviess} title="HorrorMovies" isSmall />
+        <Footer/>
     </div>
   )
 }
