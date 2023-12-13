@@ -1,0 +1,41 @@
+.main-div {
+    width: 50%;
+    margin: auto;
+}
+
+.table-selection-div {
+    background-color: #EF6B72;
+    border-radius: 3px;
+    text-align: center;
+    width: 120px;
+    height: 100px;
+}
+
+.table-selection-div-p {
+    color: white;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tr1 {
+    border-bottom: 1px solid grey;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.red-highlight {
+    background-color: #E50914;
+}
+
+
+.red-text {
+    color: #E50914;
+    background-color: white;
+    font-weight: 600;
+}
