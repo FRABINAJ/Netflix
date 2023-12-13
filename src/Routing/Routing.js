@@ -9,6 +9,7 @@ import ComedyMovie from '../Components/Comedy Movie/ComedyMovie'
 import RomanceMovie from '../Components/Romace Movie/RomanceMovie'
 import Documentary from '../Components/Documentary/Documentary'
 import NetflixClone from '../Components/NetflixClone/NetflixClone'
+import Signin from '../Components/Signin/Signin'
 
 function Routing() {
   return (
@@ -23,7 +24,7 @@ function Routing() {
         <Route path="RomanceMovie" element={<RomanceMovie/>}/>
         <Route path="Documentaries" element={<Documentary/>}/>
         <Route path="NetflixClone" element={<NetflixClone/>}/>
-        
+        <Route path="Signin" element={<Signin/>}/>
       </Routes>
     </div>
   )

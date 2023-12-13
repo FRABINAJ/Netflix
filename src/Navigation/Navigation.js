@@ -3,12 +3,16 @@ import React, { useState } from 'react';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import "./Navigation.css"
-
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 function Navigation() {
     const [state, setState] = useState({
         isPaneOpen: false,
         isPaneOpenLeft: false,
     });
+    const closePopup = () => {
+        // Close the popup using the onClose prop provided by reactjs-popup
+        Popup.close()}
     return (
         
         <div className='navbar'>
@@ -37,11 +41,6 @@ function Navigation() {
                     <Link to="MainPage">
                 <div className='slidediv'>
                 HOME
-                </div>
-                </Link>
-                <Link to="/FirstPage">
-                <div className='slidediv'>
-                ABOUT PAGE
                 </div>
                 </Link>
                 <Link to="/ActionMovies">
@@ -74,6 +73,12 @@ function Navigation() {
                 CLONE
                 </div>
                 </Link>
+                <Link to="/FirstPage">
+                <div className='slidediv'>
+                Logout
+                </div>
+                </Link>
+                
                 <br /><br />
             </SlidingPane>
 
