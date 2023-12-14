@@ -20,7 +20,7 @@ function Stage1() {
                     <p>STEP <b>1</b> OF <b>3</b></p>
                     <h2>Finishing Setting up your account</h2>
                     <p className='mt-3' style={{ fontSize: "20px" }}>Netflix is personalised for you. Create a password to watch on any device at any time.</p>
-                    <Link to="/Stage1A"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px" }}>Next</button></Link>
+                    <Link to="/Stage1A"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px", fontSize: "25px" }}>Next</button></Link>
                 </div>
             </center>
             <SecondFooter />

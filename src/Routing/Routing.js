@@ -13,6 +13,9 @@ import Stage1 from '../Components/First Page/Stage1'
 import Stage1A from '../Components/First Page/Stage1A'
 import Stage2 from '../Components/First Page/Stage2'
 import Stage3 from '../Components/First Page/Stage3'
+import Stage4 from '../Components/First Page/Stage4'
+import Stage4A from '../Components/First Page/Stage4A'
+import Stage4B from '../Components/First Page/Stage4B'
 
 function Routing() {
   return (
@@ -32,6 +35,9 @@ function Routing() {
         <Route path="Stage1A" element={<Stage1A/>}/>
         <Route path="Stage2" element={<Stage2/>}/>
         <Route path="Stage3" element={<Stage3/>}/>
+        <Route path="Stage4" element={<Stage4/>}/>
+        <Route path="Stage4A" element={<Stage4A/>}/>
+        <Route path="Stage4B" element={<Stage4B/>}/>
 
       </Routes>
     </div>

@@ -91,13 +91,13 @@ function Stage3() {
                                 <b>₹149</b>
                             </td>
                             <td className={`myTd px-5 ${highlightedColumn === 'Basic' ? 'red-highlight red-text' : ''}`}>
-                                <b>₹149</b>
+                                <b>₹199</b>
                             </td>
                             <td className={`myTd px-5 ${highlightedColumn === 'Standard' ? 'red-highlight red-text' : ''}`}>
-                                <b>₹149</b>
+                                <b>₹499</b>
                             </td>
                             <td className={`myTd px-5 ${highlightedColumn === 'Premium' ? 'red-highlight red-text' : ''}`}>
-                                <b>₹149</b>
+                                <b>₹649</b>
                             </td>
                         </tr>
                         <tr className='tr1'>
@@ -196,7 +196,7 @@ function Stage3() {
                     <p className='text-secondary' style={{ fontSize: "15px" }}> HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our <a href="#" style={{ textDecoration: "none" }}> Terms of Use </a> for more details.</p>
                     <p className='text-secondary' style={{ fontSize: "15px" }}> Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard, and 1 with Basic and Mobile.</p>
                     <center className='mt-5 mb-5'>
-                        <Link to="/MainPage"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px" }}>Next</button></Link>
+                        <Link to="/Stage4"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px", fontSize: "25px" }}>Next</button></Link>
                     </center>
                 </div>
             </center>

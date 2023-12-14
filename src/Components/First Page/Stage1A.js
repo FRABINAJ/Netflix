@@ -20,7 +20,7 @@ function Stage1A() {
                         <input type="email" placeholder='Enter email' className='form-control' /><br />
                         <input type="password" placeholder='Enter Password' className='form-control' />
                     </form>
-                    <Link to="/Stage2"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px" }}>Next</button></Link>
+                    <Link to="/Stage2"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px", fontSize: "25px" }}>Next</button></Link>
                 </div>
             </center>
             <SecondFooter />

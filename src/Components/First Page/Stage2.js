@@ -33,7 +33,7 @@ function Stage2() {
                             <img height={30} width={30} src={tick} alt="" />
                             <p className='mx-3' style={{ fontSize: "20px", fontWeight: '400' }}>No ads and no extra fees. Ever.</p>
                         </div>
-                        <Link to="/Stage3"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px" }}>Next</button></Link>
+                        <Link to="/Stage3"><button className='btn text-white' style={{ backgroundColor: "#E50914", width: "400px", height: "60px", fontSize: "25px" }}>Next</button></Link>
                     </div>
                 </div>
             </center>

@@ -37,44 +37,52 @@ function Navigation() {
                 className="custom-pane"
             >
                 <Link to="MainPage">
-                    <div className='slidediv'>
-                        HOME
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>HOME</div>
                     </div>
+
                 </Link>
                 <Link to="/ActionMovies">
-                    <div className='slidediv'>
-                        ACTION MOVIES
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>ACTION</div>
                     </div>
                 </Link>
                 <Link to="/HorrorMovies">
-                    <div className='slidediv'>
-                        HORROR MOVIES
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>HORROR</div>
                     </div>
                 </Link>
                 <Link to="/ComedyMovie">
-                    <div className='slidediv'>
-                        COMEDY MOVIES
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>COMEDY</div>
                     </div>
                 </Link>
                 <Link to="/RomanceMovie">
-                    <div className='slidediv'>
-                        ROMANTICAL MOVIES
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>ROMANTIC</div>
                     </div>
                 </Link>
                 <Link to="/Documentaries">
-                    <div className='slidediv'>
-                        DOCUMENTARIES
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>DOCUMENTARIES</div>
                     </div>
                 </Link>
                 <Link to="/NetflixClone">
-                    <div className='slidediv'>
-                        CLONE
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3'>NETFLIX CLONE</div>
                     </div>
                 </Link>
                 <Link to="/FirstPage">
-                    <div className='slidediv text-danger'><u>
-                        LOGOUT
-                    </u>
+                    <div class='slidediv'>
+                        <div class='fstdiv'></div>
+                        <div class='mx-3 text-danger'><u>LOGOUT</u></div>
                     </div>
                 </Link>
 

@@ -21,13 +21,24 @@
     text-decoration: none;
 }
 
+
+
 .slidediv {
     height: 50px;
     color: white;
     text-align: right;
     margin-top: 10px;
+    display: flex;
+    position: relative;
 }
 
-.slidediv:hover {
-    border: 1px solid red;
+.fstdiv {
+    height: 50px;
+    width: 15px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.slidediv:hover .fstdiv {
+    background-color: #E50914;
 }

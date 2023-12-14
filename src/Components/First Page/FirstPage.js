@@ -134,13 +134,23 @@ function FirstPage() {
               <div className="textbox">What is Netflix?</div>
               <i className="las la-plus" />
             </div>
-            <div className="search1">
-              <input type="text" className="box1" placeholder="Email" />
-              <span className="try1">
-                Try 30 days free <i className="fas fa-chevron-right" />
-              </span>
+            <div className="search1 mt-5">
+            <form onSubmit={handleSubmit} className='form1'>
+                  <input
+                    type="email"
+                    className="box"
+                    placeholder="Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                  {emailError && <span className="error">{emailError}</span>}
+                  <button type='submit' className="try text-white">
+                    Try 30 days free <i className="fas fa-chevron-right" />
+                  </button>
+                </form>
             </div>
-            <h4>Ready to watch? Enter your email to create or access your account
+            <h4 className='mt-5'>Ready to watch? Enter your email to create or access your account
             </h4>
           </div>
           <div className="footer">
